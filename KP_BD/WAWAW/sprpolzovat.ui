@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SPRPOLZOVAT</class>
+ <widget class="QDialog" name="SPRPOLZOVAT">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1301</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Справка</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="zag3">
+     <property name="styleSheet">
+      <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ПОЛЬЗОВАТЕЛЬСКАЯ ИНФОРМАЦИЯ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Интерфейс данного приложения интуитивно понятен и прост.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Но если все-таки вы не смогли найти или осуществить определенный функционал программы, то ниже мы предоставляем руководство по эксплуатации приложения.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ДОБАВЛЕНИЕ НОВОЙ СТРОКИ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того чтобы добавить новую строку, необходимо нажать на кнопку &amp;quot;+&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;После этого появится новое окно, в котором можно заполнить строки в соответствии с названием столбцов, далее необходимо нажать на кнопки &amp;quot;Сохранить&amp;quot; и &amp;quot;ОБНОВЛЕНИЕ&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;РЕДАКТИРОВАНИЕ СТРОКИ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того чтобы отредактировать строку нужно нажать на кнопку &amp;quot;РЕДАКТИРОВАНИЕ&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;После этого появится новое окно, в котором нужно ввести уже существующий ID (в зависимости от таблицы), &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;отредактировать остальные строки, нажать на кнопки &amp;quot;Сохранить&amp;quot; и &amp;quot;ОБНОВЛЕНИЕ&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;УДАЛЕНИЕ СТРОКИ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того чтобы удалить строку, необходимо нажать на кнопку &amp;quot;УДАЛЕНИЕ ПОЗИЦИИ&amp;quot;, подтвердить действие и нажать на кнопку &amp;quot;ОБНОВЛЕНИЕ&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;ПОИСК СТРОКИ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Чтобы найти нужную строку, нужно в нижнем поле написать значение любого столбца и нажать на кнопку &amp;quot;ПОИСК&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;ОБНОВЛЕНИЕ ТАБЛИЦЫ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того чтобы обновить таблицу, необходимо нажать на кнопку &amp;quot;ОБНОВЛЕНИЕ&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;После этого таблица обновится и вернется в стандартный вид.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;ВЫХОД ИЗ ПРИЛОЖЕНИЯ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того чтобы выйти из приложения необходимо нажать на кнопку &amp;quot;ВЫХОД&amp;quot; и подтвердить действие.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="kartINT">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../build-USERLIST-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/WAWAW/debug/img/5.png</pixmap>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
