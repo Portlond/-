@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>vibor</class>
+ <widget class="QDialog" name="vibor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>245</width>
+    <height>180</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>База данных склада</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(200, 200, 200);
+color: rgb(0, 0, 0);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Выберите таблицу</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="sklad">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Склад</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="tovar">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Товар</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="sold">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Продажа</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="buy">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Закупка</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
